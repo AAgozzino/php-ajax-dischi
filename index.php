@@ -1,3 +1,7 @@
+<?php
+  include 'db.php';
+  // var_dump($database);
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -29,12 +33,14 @@
         <!-- Main container -->
         <div class="container">
           <!-- Disks -->
-          <div class="box-disk">
-            <img src="#" alt="Disk cover">
-            <h2 class="title">Titolo</h2>
-            <h3 class="author">Autore</h3>
-            <h3 class="year">Anno</h3>
-          </div>
+          <?php foreach ($database as $disk) :?>
+            <div class="box-disk">
+              <img src="<?php echo $disk["poster"]; ?>" alt="Disk cover">
+              <h2 class="title"><?php echo $disk["title"]; ?></h2>
+              <h3 class="author"><?php echo $disk["author"]; ?></h3>
+              <h3 class="year"><?php echo $disk["year"]; ?></h3>
+            </div>
+          <?php endforeach; ?>
           <!-- /Disks -->
         </div>
         <!-- /Main container -->
