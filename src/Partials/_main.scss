@@ -1,0 +1,13 @@
+main{
+  height: calc(100% - 70px);
+  background-color: #1E2D3B;
+
+  .container{
+    @include flexContainer;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px 0;
+    
+  }
+}

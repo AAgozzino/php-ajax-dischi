@@ -1,3 +1,14 @@
+//Google Font Lato
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+
+// Variables - Mixins - Commons
 @import "Partials/_variables.scss";
 @import "Partials/_mixins.scss";
 @import "Partials/_commons.scss";
+
+// Header
+@import "Partials/_header.scss";
+
+// Main
+@import "Partials/_main.scss";
+@import "Partials/_diskbox.scss";

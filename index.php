@@ -8,6 +8,39 @@
     <link rel="stylesheet" href="dist/app.css">
   </head>
   <body>
+    <!-- Page wrapper -->
+    <div class="page-wrapper">
+      <!-- HEADER -->
+      <header>
+        <!-- Header container -->
+        <div class="container">
+          <!-- Logo -->
+          <div class="header-logo">
+            <img src="img/logo.png" alt="Logo Spotify">
+          </div>
+          <!-- /Logo -->
+        </div>
+        <!-- /Header container -->
+      </header>
+      <!-- /HEADER -->
 
+      <!-- MAIN -->
+      <main>
+        <!-- Main container -->
+        <div class="container">
+          <!-- Disks -->
+          <div class="box-disk">
+            <img src="#" alt="Disk cover">
+            <h2 class="title">Titolo</h2>
+            <h3 class="author">Autore</h3>
+            <h3 class="year">Anno</h3>
+          </div>
+          <!-- /Disks -->
+        </div>
+        <!-- /Main container -->
+      </main>
+      <!-- /MAIN -->
+    </div>
+    <!-- /Page wrapper -->
   </body>
 </html>

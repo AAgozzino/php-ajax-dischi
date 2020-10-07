@@ -1,0 +1,15 @@
+.box-disk{
+  @include flexContainer;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 200px;
+  padding: 20px;
+  margin: 10px 20px;
+  background-color: rgb(46, 58, 70);
+  text-align: center;
+
+  img{
+    width: 100%;
+  }
+  
+}
