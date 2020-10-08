@@ -29,7 +29,9 @@
         <!-- Main container -->
         <div class="container">
           <!-- Disks -->
-          <?php include 'disk.php' ?>
+          <div class="disk">
+            <?php include 'disk.php' ?>
+          </div>
           <!-- /Disks -->
         </div>
         <!-- /Main container -->
