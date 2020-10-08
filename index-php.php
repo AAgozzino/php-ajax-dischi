@@ -29,7 +29,7 @@
         <!-- Main container -->
         <div class="container">
           <!-- Disks -->
-          
+          <?php include 'disk.php' ?>
           <!-- /Disks -->
         </div>
         <!-- /Main container -->
@@ -37,11 +37,5 @@
       <!-- /MAIN -->
     </div>
     <!-- /Page wrapper -->
-
-    <!-- TEMPLATE HANDLEBARS - Disk -->
-    <!-- TEMPLATE HANDLEBARS - Disk -->
-
-    <!-- Javascript -->
-    <script src="dist/app.js" charset="utf-8"></script>
   </body>
 </html>
