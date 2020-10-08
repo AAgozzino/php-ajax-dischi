@@ -16091,7 +16091,28 @@ var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js"
 
 var Handlebars = __webpack_require__(/*! handlebars */ "./node_modules/handlebars/dist/cjs/handlebars.js");
 
-$(document).ready(function () {});
+$(document).ready(function () {
+  $.ajax({
+    "url": "http://localhost:8888/php-ajax-dischi/api.php",
+    "method": "GET",
+    "success": function success(data) {
+      render(data);
+    },
+    "error": function error() {
+      alert("Errore");
+    }
+  });
+});
+
+function render(info) {
+  var source = $("#disk-template").html();
+  var template = Handlebars.compile(source);
+
+  for (var i = 0; i < info.length; i++) {
+    var html = template(info[i]);
+    $(".disk").append(html);
+  }
+}
 
 /***/ }),
 
