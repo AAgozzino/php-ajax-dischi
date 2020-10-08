@@ -22,7 +22,7 @@
 
           <!-- Select -->
           <select id="author" name="author">
-            <option value="all">All</option>
+            <option value="All">All</option>
           </select>
           <!-- /Select -->
         </div>
