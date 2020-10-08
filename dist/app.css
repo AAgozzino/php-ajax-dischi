@@ -35,9 +35,21 @@ header {
   height: 70px;
   background-color: #2e3a46;
 }
-header .container .header-logo img {
+header .container {
+  display: flex;
+  align-items: center;
   height: 70px;
   padding: 10px;
+}
+header .container .header-logo {
+  height: 100%;
+}
+header .container .header-logo img {
+  height: 100%;
+}
+header .container #author {
+  height: 20px;
+  margin-left: 10px;
 }
 
 main {

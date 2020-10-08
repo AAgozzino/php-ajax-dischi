@@ -19,6 +19,12 @@
             <img src="img/logo.png" alt="Logo Spotify">
           </div>
           <!-- /Logo -->
+
+          <!-- Select -->
+          <select id="author" name="author">
+            <option value="all">All</option>
+          </select>
+          <!-- /Select -->
         </div>
         <!-- /Header container -->
       </header>
@@ -41,7 +47,7 @@
     <!-- /Page wrapper -->
 
     <!-- TEMPLATE HANDLEBARS - Disk -->
-    <?php include "disk-handlebars.php" ?>
+    <?php include "handlebars-template.php" ?>
     <!-- TEMPLATE HANDLEBARS - Disk -->
 
     <!-- Javascript -->

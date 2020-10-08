@@ -4,12 +4,22 @@ header{
   background-color: rgb(46, 58, 70);
 
   .container{
+    @include flexContainer;
+    align-items: center;
+    height: 70px;
+    padding: 10px;
 
     .header-logo{
+      height: 100%;
       img{
-        height: 70px;
-        padding: 10px;
+        height: 100%;
       }
+    }
+
+    #author{
+      height: 20px;
+      margin-left: 10px;
+
     }
   }
 }

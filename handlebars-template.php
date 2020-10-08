@@ -6,3 +6,7 @@
     <h3 class="disk-box-year">{{year}}</h3>
   </div>
 </script>
+
+<script id="select-option-template" type="text/x-handlebars-template">
+  <option value="{{author}}">{{author}}</option>
+</script>
